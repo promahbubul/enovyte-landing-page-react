@@ -6,7 +6,7 @@ const HowWeWork = () => {
   return (
     <section
       style={{ backgroundImage: `url(${bg3})` }}
-      className="relative mt-36 bg-no-repeat border-2 border-red-500 bg-center md:bg-cover py-14 px-5 md:px-0 md:py-28"
+      className="relative mt-36 bg-no-repeat  bg-center md:bg-cover py-14 px-5 2xl:px-5 md:py-28"
     >
       <div className="max-w-6xl text-center text-white  mx-auto  pt-20 z-10 relative">
         <h3 className="">HOW WE WORK</h3>

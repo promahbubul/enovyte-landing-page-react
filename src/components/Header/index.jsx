@@ -5,12 +5,12 @@ import hederBD from "../../assets/images/header-bd.png";
 
 const Header = () => {
   return (
-    <section className="bg-gradient-to-b from-[#001655] pb-28 to-[#001243] border-2 border-red-500">
+    <section className="bg-gradient-to-b from-[#001655] pb-28 to-[#001243] ">
       <header
         className={`text-white  text-center -white bg-no-repeat  bg-cover bg-center  `}
         style={{ backgroundImage: `url(${hederBD})` }}
       >
-        <div className="bg-gradient-to-b pt-20 md:pt-28 px-5 md:px-0 from-[#04135B] to-transparent ">
+        <div className="bg-gradient-to-b pt-20 md:pt-28 px-5 2xl:px-5 from-[#04135B] to-transparent ">
           <div className="max-w-3xl mx-auto">
             <h1 className="font-extrabold font-raleway text-6xl md:text-[75px] leading-tight">
               DIGITAL SERVICES
@@ -25,7 +25,7 @@ const Header = () => {
               <OutlineButton>Book an appointment</OutlineButton>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row gap items-center justify-center mt-14">
+          <div className="flex flex-col  md:flex-row gap-3 md:gap-0 items-center justify-center mt-14">
             {activitiesStatus.map(({ description, icon, id, title, last }) => (
               <StatusCard
                 image={icon}

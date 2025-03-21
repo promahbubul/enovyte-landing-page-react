@@ -3,7 +3,7 @@ import { Navbar } from "../../components";
 
 const MainLayout = () => {
   return (
-    <div className="border-red-500 border-2 w-full">
+    <div className="w-full">
       <Navbar />
       <Outlet />
     </div>

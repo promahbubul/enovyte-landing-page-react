@@ -102,8 +102,8 @@ const Portfolio = () => {
     ],
   };
   return (
-    <section id="portfolio" className="z-10 relative border-2 border-red-500">
-      <div className="max-w-7xl mx-auto mt-20 px-5 md:px-0">
+    <section id="portfolio" className="z-10 relative ">
+      <div className="max-w-7xl mx-auto mt-20 px-5 2xl:px-5">
         <SectionHeading
           title={"UI/UX PORTFOLIO"}
           titleClassName={"!text-[#0C89FF]"}

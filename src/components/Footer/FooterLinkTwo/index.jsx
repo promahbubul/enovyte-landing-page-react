@@ -6,7 +6,7 @@ const FooterLinkTwo = () => {
   return (
     <div
       className="w-full
-     md:w-2/12 text-center md:text-left"
+      text-center md:text-left"
     >
       <FooterLinkHeading>Learn More</FooterLinkHeading>
       <div className="flex flex-col text-white mt-5 space-y-2 ">

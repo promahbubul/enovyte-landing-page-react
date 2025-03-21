@@ -13,7 +13,7 @@ import Card from "./Card";
 
 const GetInTouch = () => {
   return (
-    <div className="w-full md:w-2/12 text-center md:text-left">
+    <div className="w-full  text-center md:text-left">
       <FooterLinkHeading>Get in Touch</FooterLinkHeading>
       <div className="text-white mt-5 space-y-2">
         <Card title={"support@envobyte.com"} icon={MdOutlineMail} />

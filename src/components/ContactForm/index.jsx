@@ -1,10 +1,11 @@
 import { Input, TextArea } from "../ui";
 import contactData from "../../constant/contact.constant";
 import Card from "./Card";
+import { FaArrowRight } from "react-icons/fa";
 
 const ContactForm = () => {
   return (
-    <div className="max-w-6xl px-5  xl:px-0 mx-auto flex flex-col md:flex-row gap-8 relative">
+    <div className="max-w-6xl px-5  2xl:px-5 mx-auto flex flex-col md:flex-row gap-8 relative">
       {/* Left */}
       <div className="p-8 rounded-lg border border-[#E1E4ED]/15 bg-[#0A2C8C]/20 z-20 relative w-full md:w-1/2 ">
         <form className="grid grid-cols-2 gap-6">
@@ -39,6 +40,10 @@ const ContactForm = () => {
             placeholder={"Type your message here..."}
           />
         </form>
+        <button className="mt-6 py-4 px-5 w-full md:w-auto justify-center rounded bg-white/10 border border-[#F1F3F7]/30 text-white font-semibold text-sm font-inter flex flex-row items-center gap-1">
+          Send message
+          <FaArrowRight />
+        </button>
       </div>
       {/* Right */}
       <div className="text-white w-full md:w-1/2 relative z-20">
@@ -60,7 +65,7 @@ const ContactForm = () => {
       "
       ></div>
       <div
-        className="w-80 md:w-[369px] h-[530px] bg-[#0A3CCA]/40  rounded-[100%] blur-3xl absolute -bottom-[200px]  md:-bottom-[400px] z-10 right-10 md:-right-20
+        className="w-80 md:w-[369px] h-[530px] bg-[#0A3CCA]/40  rounded-[100%] blur-3xl absolute -bottom-[200px]  xl:-bottom-[400px] z-10 right-20 xl:-right-20
       "
       ></div>
     </div>

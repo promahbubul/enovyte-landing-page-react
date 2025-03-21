@@ -52,10 +52,7 @@ const ClientReview = () => {
   };
 
   return (
-    <section
-      id="blog"
-      className="relative mt-28 md:mt-40 border-2 border-red-500 "
-    >
+    <section id="blog" className="relative mt-28 md:mt-40  ">
       <div className="max-w-6xl mx-auto text-center mt-10 md:pt-20 z-10 relative">
         <SectionHeading
           title={"CLIENT REVIEWS"}

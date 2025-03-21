@@ -43,8 +43,9 @@ const DigitalServices = () => {
           dots: true,
         },
       },
+      
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -62,9 +63,9 @@ const DigitalServices = () => {
   };
   return (
     <section id="service">
-      <div className="pt-12 pb-14 bg-gradient-to-b from-[#001243] to-[#001655] border-2 border-red-500">
+      <div className="pt-12 pb-14 bg-gradient-to-b from-[#001243] to-[#001655] ">
         {/* Section Heading */}
-        <div className="max-w-7xl px-5 md:px-0 mx-auto">
+        <div className="max-w-7xl px-5 2xl:px-5 mx-auto">
           <h3 className="text-orange text-base font-semibold font-raleway">
             DIGITAL SERVICES
           </h3>
@@ -131,7 +132,7 @@ const DigitalServices = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-row  items-center gap-4 text-white mt-1 justify-end max-w-7xl mx-auto ">
+        <div className="flex flex-row  items-center gap-4 text-white mt-3 md:mt-1 justify-center  md:justify-end max-w-7xl mx-auto ">
           <p className="font-raleway text-sm">Creative Solution</p>
           <div className="w-20 h-0.5  bg-white"></div>
         </div>

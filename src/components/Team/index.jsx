@@ -20,6 +20,7 @@ const Team = () => {
     dots: false,
     infinite: true,
     speed: 500,
+
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
@@ -31,7 +32,6 @@ const Team = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
         },
       },
       {
@@ -52,8 +52,8 @@ const Team = () => {
     ],
   };
   return (
-    <section className="relative mt-24 md:mt-28 border-2 border-red-500">
-      <div className="max-w-6xl px-5 md:px-0 mx-auto text-center pt-5 md:pt-20 z-10 relative">
+    <section className="relative mt-24 md:mt-28 ">
+      <div className="max-w-6xl px-5 2xl:px-5 mx-auto text-center pt-5 md:pt-20 z-10 relative">
         <SectionHeading
           title={"EXPERIENCED TEAM"}
           titleClassName={"!text-[#0C89FF]"}
